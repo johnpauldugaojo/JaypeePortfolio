@@ -128,7 +128,7 @@ body {
 }
 body#bg-img {
   background: url("../img/volkswagen.jpg");
-  background: rgba(68, 68, 68, 0.9), url('../img/volkswagen.jpg')
+  background: rgba(68, 68, 68, 0.9), url("../img/volkswagen.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
@@ -241,6 +241,22 @@ main#home h1 {
   border: 3px #fff solid;
 }
 .projects img:hover {
+  opacity: 0.5;
+  border-color: #ff4b2b;
+  transition: all 1.5s ease-out;
+}
+
+.my-skills {
+  display: grid;
+  grid-gap: 0.7rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+.my-skills img {
+  width: 99%;
+  height: 80%;
+  border: 3px #fff solid;
+}
+.my-skills img:hover {
   opacity: 0.5;
   border-color: #ff4b2b;
   transition: all 1.5s ease-out;
