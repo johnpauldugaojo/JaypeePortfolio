@@ -68,8 +68,8 @@
 }
 .menu-branding .portrait {
   width: 250px;
-  height: 250px;
-  background: url("../img/48383166_2294518213901506_1768689904977444864_o.jpg");
+  height: 374px;
+  background: url('../img/Formal.JPG');
   border-radius: 50%;
   border: solid 3px #f12711;
 }
@@ -123,17 +123,16 @@ body {
   color: #fff;
   height: 100%;
   margin: 0;
-  font-family: "Segoe UI", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
 }
 body#bg-img {
-  background: url("../img/NASA.png");
-  background: rgba(68, 68, 68, 0.9), url("../img/NASA.png");
+  background: url('../img/NASA.png');
   background-attachment: fixed;
   background-size: cover;
 }
 body#bg-img:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   right: 0;
@@ -202,8 +201,8 @@ main#home h1 {
   display: grid;
   grid-gap: 30px;
   grid-template-areas:
-    "bioimage bio bio"
-    "job1 job2 job3";
+    'bioimage bio bio'
+    'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr);
 }
 .about-info .bio-image {
@@ -362,17 +361,17 @@ main#home h1 {
     transform: translate3d(100%, 0, 0);
   }
   .menu-branding .portrait {
-    background: url("../img/small_jp.jpg");
+    background: url('../img/Formal_Small.jpg');
     width: 150px;
     height: 150px;
   }
   .about-info {
     grid-template-areas:
-      "bioimage"
-      "bio"
-      "job1"
-      "job2"
-      "job3";
+      'bioimage'
+      'bio'
+      'job1'
+      'job2'
+      'job3';
     grid-template-columns: 1fr;
   }
   .projects {
